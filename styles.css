@@ -7,6 +7,12 @@
     color:#f2f2f2;
 }
 
+.body-images {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
 .body {
     display: flex;
     flex-direction: column;
@@ -23,4 +29,29 @@
   }
   .topnav a:hover {
     border-bottom: 3px solid #f2f2f2;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 140px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    Background-color: #a366e4
+
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+    color: #f2f2f2
+  }
+  .sidenav a:hover {
+    border-bottom: 3px solid #f2f2f2;
+  }
+  .main {
+    margin-left: 160px;
+    padding: 0px 10px;
   }
